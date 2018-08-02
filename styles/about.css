@@ -1,0 +1,71 @@
+#aboutDescription 
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#titleImg
+{
+    background-image: url(../images/ruapehu.jpg);
+}
+
+/*============================== Houses ===========================*/
+
+#housesRow1, #housesRow2, #housesRow3
+{
+    position: relative;
+    width: 100vw;
+    height: 22vw;
+    padding: 4vw 0;
+}
+
+#housesRow4
+{
+    position: relative;
+    width: 100vw;
+    height: 25.5vw;
+    padding: 4vw 0;
+}
+
+#houses .houses
+{
+    width: 23vw;
+    float: left;
+    margin: 0 4.166666667vw;
+    padding: 1vw;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0.5vw;
+    transition: 500ms;
+    color: #000000;
+}
+
+#houses img
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#houses .houses:hover
+{
+    transform: scale(1.02);
+    transform: rotate(2deg);
+    box-shadow: 0 0 3vw #00BFFF;
+    transition: 200ms;
+}
+
+#houses .houses p
+{
+    position: relative;
+    top: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 400;
+    font-size: 1.5vw;
+    transition: 500ms;
+}
+
+/*======================================== End =====================================*/

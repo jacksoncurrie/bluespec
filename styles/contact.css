@@ -1,0 +1,36 @@
+#titleImg
+{
+    background-image: url(../images/the-lakes.jpg);
+}
+
+/*========================= Contact Information  =========================*/
+
+.contactInfo
+{
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 400;
+    font-size: 35px;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.importantContactInfo
+{
+    font-weight: 300;
+    border-bottom: 1px solid #00BFFF;
+}
+
+.contactInfo a
+{
+    text-decoration: none;
+    color: #000;
+    transition: 200ms;
+}
+
+.contactInfo a:hover
+{
+    color: #00BFFF;
+    transition: 100ms;
+}
+
+/*============================== End ================================*/

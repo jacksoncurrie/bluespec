@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="The Lakes, Tauranga, Bulidings, Houses, For Sale">
+    <meta name="description" content="Buespec LTD. selling houses in the Lakes, Tauranga">
+    <meta name="author" content="Jackson Currie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+
+    <title>Get in Contact</title>
+    <link rel="icon" type="image/x-icon" href="images/logo-icon.ico">
+</head>
+
+<body onscroll="scroll()">
+    <header onclick="clickToggle()">
+        <div id="openButton"></div>
+
+        <img alt="logo" id="logoImg" src="images/logo.png">
+    </header>
+
+    <nav id="topNav">
+        <div id="closeButton" onclick="clickClose()"></div>
+        <a href="index.html">Home</a>
+        <a href="about.html">Building Profile</a>
+        <a href="contact.html" class="active">Get in Contact</a>
+    </nav>
+
+    <main onclick="clickClose()">
+        <div id="titleImg">
+            <h1 id="titleText">How to Get in Contact</h1>
+            <div id="downArrow" onclick="moveDown()"></div>
+        </div>
+        
+        <h1 id="mainContent">Contact Bluespec</h1>
+
+        <p id="description">
+            If you would like to contact Bluespec, please email, phone or text, using the information provided below, thank you.
+        </p>
+
+        <p class="contactInfo">Phone: <span class="importantContactInfo">021 770 590</span></p>
+
+        <p class="contactInfo">
+            Email:
+            <span class="importantContactInfo">
+                <a href="mailto:adrian.currie@xtra.co.nz?subject=Query%20for%20Bluespec">adrian.currie@xtra.co.nz</a>
+            </span>
+        </p>
+    </main>
+
+    <footer onclick="clickClose()">
+        <p id="copyright">&copy; Bluespec LTD, 2018.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="The Lakes, Tauranga, Bulidings, Houses, For Sale">
+    <meta name="description" content="Buespec LTD. selling houses in the Lakes, Tauranga">
+    <meta name="author" content="Jackson Currie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
+
+    <title>Building Profile</title>
+    <link rel="icon" type="image/x-icon" href="images/logo-icon.ico">
+</head> 
+
+<body onscroll="scroll()">
+    <header onclick="clickToggle()">
+        <div id="openButton"></div>
+
+        <img alt="logo" id="logoImg" src="images/logo.png">
+    </header>
+
+    <nav id="topNav">
+        <div id="closeButton" onclick="clickClose()"></div>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">Building Profile</a>
+        <a href="contact.html">Get in Contact</a>
+    </nav>
+
+    <main onclick="clickClose()">
+        <div id="titleImg">
+            <h1 id="titleText">Building, it's what we do...</h1>
+            <div id="downArrow" onclick="moveDown()"></div>
+        </div>
+
+        <h1 id="mainContent">Building Profile</h1>
+
+        <p id="description">
+            My name is Adrian Currie, and this is my company, Bluespec. I have been a prominant builder in Tauranga, as I have built over thirty houses in the area, as shown below. If you have any questions, feel free to contact me, using my contact information provided on the Contact page, thank you.
+        </p>
+        <p id="aboutDescription">
+            Click house to enlarged image.
+        </p>
+
+        <div id="houses">
+            <div id="housesRow1">
+                <a href="images/houses/large-images/bowentown-boulevard.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/bowentown-boulevard.jpg">
+                        <p>27 Bowentown Boulevard, Bowentown. (2012 Master Builders House of the Year Gold Award Winner).</p>
+                    </div>
+                </a>
+
+                <a href="images/houses/large-images/jason-place.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/jason-place.jpg">
+                        <p>11 Jason Place, Pyes Pa, Tauranga.</p>
+                    </div>
+                </a>
+                <a href="images/houses/large-images/contour-avenue.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/contour-avenue.jpg">
+                        <p>21 Contour Avenue, Pyes Pa, Tauranga.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="housesRow2">
+                <a href="images/houses/large-images/9-emmett-street.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/9-emmett-street.jpg">
+                        <p>9a, 9b, and 9c Emmett Street, Greerton, Tauranga.</p>
+                    </div>
+                </a>
+
+                <a href="images/houses/large-images/19-levers-road.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/19-levers-road.jpg">
+                        <p>19a, 19b, 19c, 19d and 19e Levers Road, Matua, Tauranga.</p>
+                    </div>
+                </a>
+
+                <a href="images/houses/large-images/50-levers-road.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/50-levers-road.jpg">
+                        <p>50a and 50b Levers Road, Matua, Tauranga.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="housesRow3">
+                <a href="images/houses/large-images/18-emmett-street.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/18-emmett-street.jpg">
+                        <p>18a, 18b, and 18c Emmet Street, Greerton, Tauranga.</p>
+                    </div>
+                </a>
+
+                <a href="images/houses/large-images/58-14th-Avenue.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/58-14th-avenue.jpg">
+                        <p>58 14th Avenue, Tauranga.</p>
+                    </div>
+                </a>
+
+                <a href="images/houses/large-images/christopher-street.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/christopher-street.jpg">
+                        <p>51a, 51b, 51c, 55, and 55b Christopher Street, Tauranga.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="housesRow4">
+                <a href="images/houses/large-images/25-14th-avenue.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/25-14th-avenue.jpg">
+                        <p>25a, 25b, 25c, and 25d 14th Avenue, Tauranga.</p>
+                    </div>
+                </a>
+
+                <a href="images/houses/large-images/kings-avenue.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/kings-avenue.jpg">
+                        <p>20a and 20b Kings Avenue, Matua, Tauranga.</p>
+                    </div>
+                </a>
+
+                <a href="images/houses/large-images/rewarewa-place.jpg">
+                    <div class="houses">
+                        <img src="images/houses/small-images/rewarewa-place.jpg">
+                        <p>34, 36 and 38, Rewarewa Place, Matua, Tauranga.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer onclick="clickClose()">
+        <p id="copyright">&copy; Bluespec LTD, 2018.</p>
+    </footer>
+</body>
+</html>

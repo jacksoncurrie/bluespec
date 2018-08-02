@@ -1,0 +1,143 @@
+#titleImg
+{
+    background-image: url(../images/mount.jpg);
+}
+
+/*=========================== Master Plan =============================*/
+
+#masterPlanImg
+{
+    display: block;
+    width: 600px;
+    margin: 0 auto 100px auto;
+}
+
+#masterPlanImg img 
+{
+    width: 600px;
+    box-shadow: 0 0 0.6vw #000;
+    transition: 200ms;
+}
+
+#masterPlanImg img:hover
+{
+    box-shadow: 0 0 1.5vw #00BFFF;
+    transition: 200ms;
+}
+
+/*=================================== Lots ===================================*/
+
+h2
+{
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 200;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #222;
+}
+
+.lotsRow
+{
+    width: 100vw;
+    height: 27vw;
+    margin-bottom: 4vw;
+}
+
+.lots
+{
+    position: relative;
+    width: 25vw;
+    height: auto;
+    float: left;
+    margin: 0 4.166666667vw;
+}
+
+.lots h3
+{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 25%;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 300;
+    font-size: 3.0vw;
+    text-align: center;
+    background-color: rgba(7,7,7,0.2);
+    transition: 500ms;
+}
+
+.lots p
+{
+    position: absolute;
+    z-index: 100; 
+    color: #000;
+    top: 62.5%;
+    width: 100%; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: center;
+    background-color: rgba(7,7,7,0.2);
+    transition: 500ms;
+}
+
+.first
+{
+    position: relative;
+    top: 0;
+    height: 59%;
+    width: 98%;
+    margin: 1% 1% 0 1%;
+    box-shadow: 0 0 0.5vw #000000;
+}
+
+.second
+{
+    position: relative;
+    height: 38%;
+    width: 48.5%;
+    float: left;
+    margin: 0.5% 1% 1% 1%;
+    box-shadow: 0 0 0.5vw #000000;
+}
+
+.third
+{
+    position: relative;
+    float: left;
+    height: 38%;
+    width: 48.5%;
+    margin: 0.5% 1% 1% 0;
+    box-shadow: 0 0 0.5vw #000000;
+}
+
+.lots:hover h3
+{
+    background: none;
+    opacity: 0.4;
+    transition: 250ms ease-in;
+    top: 0;
+    pointer-events: none;
+}
+
+.lots:hover p
+{
+    background: none;
+    opacity: 0.5;
+    transition: 300ms;
+    top: 70%;
+    pointer-events: none;
+}
+
+.lots img
+{
+    transition: 500ms;
+}
+
+.lots img:hover{
+    box-shadow: 0 0 1.5vw #00BFFF;
+    transition: 150ms;
+}
+
+/*======================================== End ======================================*/
