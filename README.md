@@ -1,2 +1,2 @@
 # Bluespec
-Website for Bluepsec LTD running with a python web server
+Website for Bluepsec LTD running with a node web server
