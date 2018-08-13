@@ -1,7 +1,34 @@
 ﻿doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/styles/main.css')
-  body
-    block content
+
+//- Common layout
+html(lang="en-NZ")
+
+    //- Head
+    head
+
+        //- Common head
+        include partials/head.pug
+
+        //- Page specific head
+        block head
+
+    //- Body
+    body
+
+        //- Common header
+        include partials/header.pug
+
+        //- Common navigation
+        include partials/navigation.pug
+
+        // Content
+        main(onscroll="scroll()")
+
+            //- Common content
+            include partials/content.pug
+
+            //- Page specific content
+            block content
+
+        //- Common footer
+        include partials/footer.pug

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg">
+  <title
+     id="title4601">Bluespec Logo</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="325.43123"
+     inkscape:cy="63.771365"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Bluespec Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3713"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion3715"><rect
+           id="rect3717"
+           width="21.428572"
+           height="82.85714"
+           x="305.71429"
+           y="493.94824" /></flowRegion><flowPara
+         id="flowPara3719">Bluespec</flowPara></flowRoot>    <g
+       id="g4599"
+       transform="matrix(0.96187376,0,0,0.96114919,0,11.53869)"
+       inkscape:export-xdpi="27.428572"
+       inkscape:export-ydpi="27.428572">
+      <text
+         transform="scale(1.0054229,0.99460635)"
+         id="text3723"
+         y="288.68942"
+         x="-4.769793"
+         style="font-style:normal;font-weight:normal;font-size:10.17555714px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25438893px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:48.84267807px;font-family:Roboto;-inkscape-font-specification:'Roboto Thin';stroke-width:0.25438893px"
+           y="288.68942"
+           x="-4.769793"
+           id="tspan3721"
+           sodipodi:role="line"><tspan
+             id="tspan4530"
+             style="fill:#00bfff;fill-opacity:1">Blue</tspan><tspan
+             id="tspan4544"
+             style="fill:#ffffff">spec</tspan></tspan></text>
+      <g
+         transform="translate(2.5390605,-0.80180855)"
+         id="g4590">
+        <rect
+           style="fill:#00bfff;fill-opacity:1;stroke:none;stroke-width:0.16230129"
+           id="rect4552"
+           width="56.527504"
+           height="1.2705581"
+           x="4.6332884"
+           y="268.91684"
+           transform="rotate(-16.702532)" />
+        <rect
+           style="fill:#00bfff;fill-opacity:1;stroke:none;stroke-width:0.16230129"
+           id="rect4552-6"
+           width="56.527504"
+           height="1.2705581"
+           x="-255.63786"
+           y="190.81921"
+           transform="matrix(-0.95780979,-0.28740285,-0.28740285,0.95780979,0,0)" />
+      </g>
+    </g>
+  </g>
+</svg>

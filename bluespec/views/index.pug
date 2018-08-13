@@ -1,6 +1,10 @@
 ﻿extends layout
 
+block head
+    // Page specific head
+    meta(name="keyword" content="Omokoroa, Tauranga, Bulidings, Houses, For Sale")
+    meta(name="description" content="Bluespec LTD is selling houses")
+
 block content
-    - var string = "Welcome to"
-    h1= title
-    p #{string} the #{title} page
+    // Page specific content
+    p Welcome to the #{id} page

@@ -4,7 +4,11 @@ var router = express.Router();
 
 /* GET contact page. */
 router.get('/contact', function (req, res) {
-    res.render('index', { title: 'Contact' });
+    res.render('contact', {
+        title: 'Contact Us',
+        heading: 'Contact Bluespec',
+        id: 'contact'
+    });
 });
 
 module.exports = router;
