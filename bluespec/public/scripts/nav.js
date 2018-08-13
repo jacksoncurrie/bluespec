@@ -1,8 +1,8 @@
 ﻿// Navigation
-var nav = document.getElementById("topNav");
+var nav = document.getElementsByTagName("nav")[0];
 
 // Functions to open navigation
-var openNav = () => nav.style.marginLeft = "-402px";
+var openNav = () => nav.style.marginLeft = 0;
 
 // Functions to close navigation
-var closeNav = () => nav.style.marginLeft = 0;
+var closeNav = () => nav.style.marginLeft = "-100%";

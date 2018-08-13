@@ -1,6 +1,17 @@
-﻿extends layout
+﻿doctype html
 
-block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+html(lang="en-NZ")
+
+    head
+        // Metadata
+        meta(charset="UTF-8")
+        meta(name="author" content="Jackson Currie")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(name="description" content="Error page")
+
+    body
+        // Content
+        h1= message
+        a(href="/") Back Home
+        h2= error.status
+        p #{error.stack}
